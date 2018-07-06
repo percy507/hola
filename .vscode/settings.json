@@ -1,0 +1,41 @@
+{
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json"],
+      "filename": [".jshintrc", ".jsbeautify"]
+    },
+    "css": ["css", "scss"],
+    "html": []
+  },
+  "beautify.config": {
+    "indent_size": 2,
+    "indent_char": " ",
+    "end_with_newline": true,
+    "css": {
+      "indent_size": 2
+    },
+    "js": {
+      "break_chained_methods": true
+    }
+  },
+  "editor.dragAndDrop": true,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": true,
+  "editor.renderControlCharacters": false,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "files.eol": "\n",
+  "html.format.wrapAttributes": "force-aligned",
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "indent_size": 2,
+      "wrap_attributes": "force-aligned"
+    }
+  }
+}
