@@ -39,12 +39,16 @@ async function updateUserAvatar({
 }, callback) {
   const fs = require('fs');
   const path = require('path');
-  const filePath = path.join(__dirname, `../../upload/avatars/${uid}.png`);
+  const filePath = path.join(__dirname, `../../upload/avatars`);
   const url = `http://localhost:3000/upload/avatars/${uid}.png?time=${Date.now()}`;
 
   base64Data = base64Data.replace(/^data:image\/.+?;base64,/, '');
 
-  fs.writeFileSync(filePath, base64Data, 'base64');
+  if (!fs.existsSync(filePath)) {
+    fs.mkdirSync(filePath);
+  }
+
+  fs.writeFileSync(`${filePath}/${uid}.png`, base64Data, 'base64');
 
   await UserModel.where({
       uid
