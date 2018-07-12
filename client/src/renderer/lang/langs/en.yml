@@ -1,0 +1,68 @@
+login:
+  phone_hint: 'phone number'
+  authcode_hint: 'authcode'
+  authcode_button: 'Authcode'
+  submit_button: 'SIGN IN / SIGN OUT'
+  error:
+    title: 'Error'
+    phone_error: 'Please enter vaild phone number'
+    login_error: 'wrong authcode'
+
+sidebar:
+  search: ' Search'
+  groupDissolve: 'Group has dissolved'
+
+chat:
+  groupMember: 'Members'
+
+contacts:
+  category:
+    my_groups: 'My Groups'
+    default_category: 'Default Category'
+  friend_info_titles:
+    nickname: 'Nickname'
+    signature: 'Signature'
+    alias: 'Remark'
+    phone: 'Phone'
+    gender: 'Gender'
+    age: 'Age'
+    email: 'Email'
+    birthTime: 'Birthday'
+    address: 'Address'
+    selfIntro: 'Profile'
+  group_info_titles:
+    nickname: 'Name'
+    gid: 'ID'
+    createdAt: 'Create'
+    groupInfo: 'Notice'
+    members: 'Member'
+  info_content:
+    default: 'none'
+
+functions:
+  add_contact: 
+    main_title: 'Add New Friend / Group'
+    friend: 'Friends'
+    group: 'Groups'
+  create_group:
+    main_title: 'Create Group'
+  manage_category:
+    main_title: 'Manage Category'
+
+settings:
+  user_profile_setting:
+    main_title: 'Profile Setting'
+  software_setting:
+    main_title: 'Software Setting'
+  system_message:
+    main_title: 'System Message'
+
+form:
+  gender:
+    man: 'Man'
+    woman: 'Woman'
+  changeAvatar: 'Change'
+  save: 'Save'
+
+error:
+  imageMaxSize: 'Image file size must less than 500KB'

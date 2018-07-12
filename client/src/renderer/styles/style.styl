@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: default;
+}
+
+body,pre,input,textarea {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC', 'Noto Sans CJK TC', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+  line-height: 1.7;
+}
+
+// disable the ability of user drag img、text in input field
+input, textarea, select, button, img {
+  -webkit-user-drag: none;
+}
+
+// remove the arrows from input[type=“number”]
+input[type='number']::-webkit-inner-spin-button, input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* 
+  define logo font
+*/
+@font-face {
+  font-family: 'local-Flavors';
+  src: url('./fonts/custom-fonts/Flavors-Regular.ttf');
+}
+
+// import fonts
+@import './fonts/style.css';

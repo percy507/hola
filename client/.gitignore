@@ -1,8 +1,12 @@
-.db
 .DS_Store
+dist/electron/*
+dist/web/*
+build/*
+!build/icons
+coverage
 node_modules/
 npm-debug.log
 npm-debug.log.*
 thumbs.db
+dump.rdb
 !.gitkeep
-upload/images

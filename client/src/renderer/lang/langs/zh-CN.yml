@@ -1,0 +1,68 @@
+login:
+  phone_hint: '请输入您的手机号'
+  authcode_hint: '请输入验证码'
+  authcode_button: '获取验证码'
+  submit_button: '注册/登录'
+  error:
+    title: '错误'
+    phone_error: '请输入格式正确的手机号'
+    login_error: '验证码错误'
+
+sidebar:
+  search: ' 搜索'
+  groupDissolve: '此群已解散'
+
+chat:
+  groupMember: '群成员'
+
+contacts:
+  category:
+    my_groups: '我的群组'
+    default_category: '默认分组'
+  friend_info_titles:
+    nickname: '昵称'
+    signature: '个性签名'
+    alias: '备注'
+    phone: '手机号'
+    gender: '性别'
+    age: '年龄'
+    email: '邮箱'
+    birthTime: '出生日期'
+    address: '现居地址'
+    selfIntro: '个人简介'
+  group_info_titles:
+    nickname: '群名称'
+    gid: '群编号'
+    createdAt: '创建日期'
+    groupInfo: '群公告'
+    members: '群成员'
+  info_content:
+    default: '暂无'
+
+functions:
+  add_contact: 
+    main_title: '添加好友 / 群组'
+    friend: '好友'
+    group: '群组'
+  create_group:
+    main_title: '创建群组'
+  manage_category:
+    main_title: '好友分组管理'
+
+settings:
+  user_profile_setting:
+    main_title: '个人资料设置'
+  software_setting:
+    main_title: '软件设置'
+  system_message:
+    main_title: '系统消息'
+
+form:
+  gender:
+    man: '男'
+    woman: '女'
+  changeAvatar: '更换头像'
+  save: '保存'
+
+error:
+  imageMaxSize: '图片文件大小不得大于 500KB'
