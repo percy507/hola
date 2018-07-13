@@ -4,8 +4,6 @@
 
 本项目旨在**从零到壹**，制作一款界面美观的聊天软件。
 
----
-
 ## 技术栈
 
 * **开发环境**
@@ -30,8 +28,6 @@
 	* 后端框架：Koa2
 	* 通信模块：[socket.io](https://github.com/socketio/socket.io) 
 	* 数据库：Redis 和 MongoDB
-
----
 
 ## 需求列表
 
