@@ -24,6 +24,8 @@
 </template>
 
 <script>
+// adapter.js is a shim of WebRTC to insulate apps from spec changes and prefix differences
+// https://github.com/webrtc/adapter
 import 'webrtc-adapter';
 
 export default {
