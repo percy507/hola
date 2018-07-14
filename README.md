@@ -15,11 +15,7 @@
 * **客户端**
 	* UI设计：Sketch
 	* 软件框架：Electron
-	* 界面实现
-		* 页面框架：Vue.js
-		* 状态管理：Vuex
-		* 前端路由：Vue-Router
-		* 前端打包工具：Webpack
+	* 界面实现：Vue.js + Vuex + Vue-Router + Webpack
 	* 通信模块：[socket.io-client](https://github.com/socketio/socket.io-client)
 	* 视频聊天：[原生 WebRTC](https://www.html5rocks.com/en/tutorials/webrtc/basics/)
 
@@ -56,7 +52,16 @@
 		- [x] 国际化
 			- [x] 中文
 			- [x] 英文
-
-
 	
+## 通信架构
 
+## 软件演示
+
+## 反思 & 展望
+
+## 扩展阅读
+
+* [初探 Electron - 理论篇](http://jartto.wang/2018/01/03/first-exploration-electron/)
+* [初探 Electron - 升华篇](http://jartto.wang/2018/01/04/first-exploration-electron-2/)
+* [XCel 项目总结 - Electron 与 Vue 的性能优化](https://segmentfault.com/a/1190000007665162)
+* [【译】Electron 自动更新的完整教程（Windows 和 OSX）](https://segmentfault.com/a/1190000007616641)
