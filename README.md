@@ -109,3 +109,4 @@
 * [运用google-protobuf的IM消息应用开发（前端篇）](http://www.cnblogs.com/1wen/p/6509253.html)
 * [Can one hack “paste image” support into a textarea in Firefox?](https://stackoverflow.com/questions/14151018/can-one-hack-paste-image-support-into-a-textarea-in-firefox)
 * [在线和离线事件](https://developer.mozilla.org/zh-CN/docs/Web/API/NavigatorOnLine/Online_and_offline_events)
+* [im不丢“离线消息”设计](https://blog.csdn.net/wufaliang003/article/details/78638478)
